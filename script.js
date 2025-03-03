@@ -39,7 +39,7 @@ futurebox.addEventListener('click', function() {
     smoothly(textbox,'textContent',randomAnswer);
   
 
-    if (randomAnswer.length > 18) {
+    if (randomAnswer.length > 23) {
         textbox.style.fontSize = '15px';
       } else {
         textbox.style.fontSize = '25px';
